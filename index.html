@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Union Cards Shuffle</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>Union Cards Shuffle</header>
+  <main>
+    <!-- Landing Page -->
+    <div class="game-box" id="landing-box">
+      <h1>Union Cards Shuffle</h1>
+      <p>A Union maxi has shark eyes.<br>It takes sharp eyes to win this game.<br>Ready to test your focus?</p>
+      <button id="start-btn">Play Union Cards Shuffle</button>
+    </div>
+    <!-- Game Box -->
+    <div class="game-box" id="game-box" style="display:none;">
+      <div class="cards" id="cards"></div>
+      <p id="game-message"></p>
+    </div>
+    <!-- Result Box -->
+    <div class="result-box" id="result-box" style="display:none;">
+      <h2 id="result-title"></h2>
+      <p id="result-desc"></p>
+      <button id="share-btn" style="display:none;">Share Your Victory on X</button>
+      <button id="restart-btn">Play Again</button>
+    </div>
+  </main>
+  <footer>
+    This card game is made to relax you from the hard work, but don't forget to preach Union.
+  </footer>
+  <script src="script.js"></script>
+</body>
+        </html>
